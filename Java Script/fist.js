@@ -1,3 +1,7 @@
+const i='Helow word';
+console.log(i);
+
+
 const Student= {
     fullName: "Chandan Kumar Maurya",
     age: 23,
@@ -6,7 +10,7 @@ const Student= {
 };
 Student["age"] = Student["age"] + 1;
 Student["isPass"] = false
-console.log(Student );
+console.log(Student);
 
 const Profile={
     fullName: "Chandan Kumar Maurya",
