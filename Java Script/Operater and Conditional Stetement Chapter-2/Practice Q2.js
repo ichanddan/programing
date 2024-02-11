@@ -6,7 +6,6 @@
 // 0-49 fale
 
 
-
 let grade=prompt("Enter the number");
 if (grade>=90 && grade<=100) {
     console.log("grade is A",grade);
