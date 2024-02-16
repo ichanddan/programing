@@ -2,12 +2,17 @@
 console.log("guessing number under 1 to 30");
 let game=prompt("guessing the number");
 let guess=23;
-while (game !=guess) {
+// while (game !=guess) {
+//     game=prompt(" wrong guessing the number. enter again");
+// }
+// console.log("you are correct guessing",game);    
+
+//using for loop
+
+for (let i=guess; i!=game;) {
     game=prompt(" wrong guessing the number. enter again");
 }
-console.log("you are correct guessing",game);    
-
-
+console.log("congrets",g)
 
 
 // if (guess==game) {
