@@ -1,5 +1,5 @@
 // for given array with prices of 5 items [250,645,300,900,50] all items have a 10% descount and store in valu in array after 10 % descount
-let prices=[250,645,,300,900,50];
+let prices=[250,645,,300,900,50,500,];
 prices[2]=20;
 // let idx=0;
 // for(let value of prices){
@@ -17,3 +17,5 @@ for (let i =0; i<prices.length; i++){
     prices[i]= prices[i] - offer;
 }
 console.log(prices);
+
+// the below code
