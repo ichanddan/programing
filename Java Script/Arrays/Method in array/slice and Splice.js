@@ -8,5 +8,8 @@ console.log(arr);// affter using slice output
 let hero=['tony', 'hulk', 'blackvido','docter dom'];
 console.log(arr);// befor using splice output
 arr=hero.splice(0,2,'man')
-console.log(arr);// affter using splice output
-// allways return new array no changes in old array
+// console.log(arr);// affter using splice output
+// // allways return new array no changes in old array
+let  number=[20,32,45,33,232,5454]
+number.splice(3,1,"chandan")
+console.log(number);
