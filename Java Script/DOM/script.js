@@ -22,3 +22,18 @@
 // console.log(example) // show all text inside of html
 
 // textContent : return textyal content even for hide Element
+
+
+//--------attributes----------
+
+//---------getAttribute----------
+
+let A =document.querySelector("h1")
+    let D=A.getAttribute("id")
+    console.log(D)
+
+//-----setAttribute------
+
+let a =document.querySelector("h1")
+    let d=a.setAttribute("id",'class')
+    console.log(d)

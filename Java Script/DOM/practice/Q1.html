@@ -6,12 +6,21 @@
     <title>js</title>
 </head>
 <body>
-    <h1>Hello JavaScript</h1>
+    <h1 id="main" >Hello JavaScript</h1>
+    <button  onclick="myfun()">click me</button>
+    <button  onclick="myfun2()">old text</button>
 </body>
 <script>
-    let h1=document.querySelector("h1")
-
-    console.dir(h1.innerText);
-    h1.innerText=h1.innerText+' from chandan'
+    
+    function myfun(){
+        let h1=document.querySelector("#main");
+        console.dir(h1.innerText);
+        h1.innerText=h1.innerText+' from chandan';
+        }
+    function myfun2(){
+        let h1=document.querySelector("#main");
+        console.dir(h1.innerText);
+        h1.innerText="Hello JavaScript";
+        }
 </script>
 </html>
