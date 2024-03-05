@@ -48,9 +48,9 @@
 
 //------prepend------ 
 // inter heading in top using prepend method
-let hadding=document.createElement("h1");
-hadding.innerText="this is a heading";
-document.querySelector("body").prepend(hadding)
+// let hadding=document.createElement("h1");
+// hadding.innerText="this is a heading";
+// document.querySelector("body").prepend(hadding)
 
 
 //insert element node before (Node mins your parent dive or class)
@@ -63,8 +63,16 @@ document.querySelector("body").prepend(hadding)
 
 // inert element after node
 
-let newButton = document.createElement("button");
-newButton.innerText="click me";
-console.log(newButton);
-let m = document.querySelector("div");
-m.after(newButton);
+// let newButton = document.createElement("button");
+// newButton.innerText="click me";
+// console.log(newButton);
+// let m = document.querySelector("div");
+// m.after(newButton);
+
+
+//-----delete node ------
+// delete element using js
+
+let elementDelete = document.querySelector("div");
+elementDelete=document.querySelector("h1")
+elementDelete.remove();
