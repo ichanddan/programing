@@ -39,9 +39,32 @@
 //     console.log(d)
 
 
-// inster element inside of div
+// inster element inside of div 
+// let newButton = document.createElement("button");
+// newButton.innerText="click me";
+// console.log(newButton);
+// let m = document.querySelector("div");
+// m.append(newButton);
+
+//------prepend------ 
+// inter heading in top using prepend method
+let hadding=document.createElement("h1");
+hadding.innerText="this is a heading";
+document.querySelector("body").prepend(hadding)
+
+
+//insert element node before (Node mins your parent dive or class)
+
+// let newButton = document.createElement("button");
+// newButton.innerText="click me";
+// console.log(newButton);
+// let m = document.querySelector("div");
+// m.before(newButton);
+
+// inert element after node
+
 let newButton = document.createElement("button");
 newButton.innerText="click me";
 console.log(newButton);
 let m = document.querySelector("div");
-m.append(newButton);
+m.after(newButton);
