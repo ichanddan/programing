@@ -28,12 +28,20 @@
 
 //---------getAttribute----------
 
-let A =document.querySelector("h1")
-    let D=A.getAttribute("id")
-    console.log(D)
+// let A =document.querySelector("h1")
+//     let D=A.getAttribute("id")
+//     console.log(D)
 
-//-----setAttribute------
+// //-----setAttribute------
 
-let a =document.querySelector("h1")
-    let d=a.setAttribute("id",'class')
-    console.log(d)
+// let a =document.querySelector("h1")
+//     let d=a.setAttribute("id",'class')
+//     console.log(d)
+
+
+// inster element inside of div
+let newButton = document.createElement("button");
+newButton.innerText="click me";
+console.log(newButton);
+let m = document.querySelector("div");
+m.append(newButton);
