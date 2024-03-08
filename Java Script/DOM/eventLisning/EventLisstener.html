@@ -10,12 +10,34 @@
     <button>Click me</button>
 </body>
 <script>
+    // let btn=document.querySelector("button")
+    // btn.addEventListener("click",(evt)=>{
+    //     let main=document.querySelector("h1")
+    //     main.innerText="Hi Chandan"
+    //     console.log(evt)
+    //     console.log(evt.type)
+    // })
     let btn=document.querySelector("button")
     btn.addEventListener("click",(evt)=>{
         let main=document.querySelector("h1")
-        main.innerText="Hi Chandan"
-        console.log(evt)
-        console.log(evt.type)
+        console.log("Hi Chandan1")
+
     })
+    let main2=()=>{
+
+        console.log("Hi Chandan2")
+    }
+    btn.addEventListener("click",main2)
+
+    btn.addEventListener("click",(evt)=>{
+        let main=document.querySelector("h1")
+        console.log("Hi Chandan3")
+
+    })
+    btn.addEventListener("click",(evt)=>{
+        let main=document.querySelector("h1")
+        console.log("Hi Chandan4")
+    })
+    btn.removeEventListener("click", main2)
 </script>
 </html>
