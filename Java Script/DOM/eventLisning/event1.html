@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Wellcome to Java Script Event </h1>
+    <button>click me</button>
+    <div style="width: 150px; height: 150px; background-color: blue;">
+        Hii Bro
+    </div>
+</body>
+<script>
+    // let div=document.querySelector("div")
+    // div.onmouseover=()=>{
+    //     div.style.backgroundColor='red'
+    //     console.log("hii badla")
+    // }
+    // let doc=document.querySelector("button")
+    // doc.onclick=()=>{
+    //     let main= document.querySelector("div")
+    //     main.style.backgroundColor='red'
+    //     main.innerText="Hi "
+    // }
+    let doc=document.querySelector("button")
+    doc.onclick=(evt)=>{
+        let main= document.querySelector("div")
+        main.style.backgroundColor='red'
+        main.innerText="Hi "
+    }
+
+</script>
+</html>
