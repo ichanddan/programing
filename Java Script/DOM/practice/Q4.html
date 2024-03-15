@@ -6,8 +6,8 @@
     <title>Dark and White Mode</title>
 </head>
 <body>
-    <Button>Dark</Button>
     <h1>Hello Dark and white mode</h1>
+    <Button style="padding: 10px 10px; border-radius: 10px; outline: none;">{mode}</Button>
 </body>
 <script>
     let mode= document.querySelector("button")
@@ -16,10 +16,12 @@
         if(body.style.backgroundColor=="white"){
             body.style.backgroundColor="black"
             body.style.color="white"
+            mode.innerText="Dark"
         }
         else{
             body.style.backgroundColor="white"
             body.style.color="black"
+            mode.innerText="White"
         }
     }
 </script>
